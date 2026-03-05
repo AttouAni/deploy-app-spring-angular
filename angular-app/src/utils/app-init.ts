@@ -7,7 +7,7 @@ export function initializer(keycloak: KeycloakService): () => Promise<any> {
       try {
         await keycloak.init({
           config: {
-            url: 'http://localhost:8080/',
+            url: 'https://stunning-space-sniffle-q77qrj6v9rqq34p5w-8080.app.github.dev/',
             realm: 'oauth',
             clientId: 'angular',
           },
