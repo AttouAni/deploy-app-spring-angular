@@ -1,6 +1,6 @@
 {
     "/api": {
-      "target": "http://localhost:8081/",
+      "target": "https://stunning-space-sniffle-q77qrj6v9rqq34p5w-8081.app.github.dev/",
       "secure": false
     }
   }

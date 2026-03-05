@@ -8,7 +8,7 @@ import { User } from '../models/User';
 })
 export class UserService {
 
-  baseURL:string="http://localhost:8081/user"
+  baseURL:string="https://stunning-space-sniffle-q77qrj6v9rqq34p5w-8081.app.github.dev/user"
   constructor(private  httpClient:HttpClient) { }
 
   getAllUsers():Observable<any>{
